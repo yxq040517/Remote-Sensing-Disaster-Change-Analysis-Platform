@@ -1,0 +1,441 @@
+{
+  "overall_f1": 0.774877850482836,
+  "localization_f1": 0.8534565307910056,
+  "damage_f1": 0.7412012732079061,
+  "class_f1": [
+    0.8900799248749003,
+    0.5228948621944047,
+    0.800242776394569,
+    0.9000097506317253
+  ],
+  "pixels": 5887200,
+  "state": "completed",
+  "samples": 100,
+  "total": 100,
+  "split": "hold",
+  "manifest_sha256": "74909a69061215c98d134e9837dc47491451f86fe740b1b40cd830e75a023a13",
+  "model_sha256": "81ae6386ceebe225ab6c072cb987b57312fdcfdb2a7f72ab9b30e5e8f1041cc4",
+  "seconds": 34.71,
+  "mean_seconds": 0.347,
+  "wall_seconds": 45.3,
+  "failures": 0,
+  "protocol": "hold固定抽样子集；损毁指标排除背景及255；独立定位F1；1024原图GPU推理",
+  "events": [
+    "hurricane-florence",
+    "hurricane-harvey",
+    "hurricane-matthew",
+    "hurricane-michael",
+    "mexico-earthquake",
+    "midwest-flooding",
+    "palu-tsunami",
+    "santa-rosa-wildfire",
+    "socal-fire"
+  ],
+  "failure_examples": [
+    {
+      "id": "hold-0073",
+      "image_name": "hold/images/socal-fire_00000690",
+      "event": "socal-fire",
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "localization": [
+        0,
+        0,
+        0
+      ],
+      "seconds": 0.362,
+      "metrics": {
+        "overall_f1": 0.0,
+        "localization_f1": 0.0,
+        "damage_f1": 0.0,
+        "class_f1": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pixels": 0,
+        "class_support": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "present_class_mean_f1": null
+      },
+      "inference": {
+        "model_id": "EVER-Z/torchange_example_changeos_swint_on_xview2_best42k",
+        "device": "cuda",
+        "tile": 1024,
+        "stride": 512,
+        "tiles": 1,
+        "pipeline_version": "changeos-native1024-cuda-v1",
+        "strategy": "native",
+        "seconds": 0.362,
+        "width": 1024,
+        "height": 1024,
+        "peak_vram_mb": 831.1,
+        "normalization": "ImageNet RGB; pre/post stacked; localization>0.5; argmax damage"
+      }
+    },
+    {
+      "id": "hold-0252",
+      "image_name": "hold/images/palu-tsunami_00000156",
+      "event": "palu-tsunami",
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "localization": [
+        0,
+        0,
+        0
+      ],
+      "seconds": 0.367,
+      "metrics": {
+        "overall_f1": 0.0,
+        "localization_f1": 0.0,
+        "damage_f1": 0.0,
+        "class_f1": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pixels": 0,
+        "class_support": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "present_class_mean_f1": null
+      },
+      "inference": {
+        "model_id": "EVER-Z/torchange_example_changeos_swint_on_xview2_best42k",
+        "device": "cuda",
+        "tile": 1024,
+        "stride": 512,
+        "tiles": 1,
+        "pipeline_version": "changeos-native1024-cuda-v1",
+        "strategy": "native",
+        "seconds": 0.367,
+        "width": 1024,
+        "height": 1024,
+        "peak_vram_mb": 831.1,
+        "normalization": "ImageNet RGB; pre/post stacked; localization>0.5; argmax damage"
+      }
+    },
+    {
+      "id": "hold-0291",
+      "image_name": "hold/images/hurricane-harvey_00000219",
+      "event": "hurricane-harvey",
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "localization": [
+        0,
+        0,
+        0
+      ],
+      "seconds": 0.343,
+      "metrics": {
+        "overall_f1": 0.0,
+        "localization_f1": 0.0,
+        "damage_f1": 0.0,
+        "class_f1": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pixels": 0,
+        "class_support": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "present_class_mean_f1": null
+      },
+      "inference": {
+        "model_id": "EVER-Z/torchange_example_changeos_swint_on_xview2_best42k",
+        "device": "cuda",
+        "tile": 1024,
+        "stride": 512,
+        "tiles": 1,
+        "pipeline_version": "changeos-native1024-cuda-v1",
+        "strategy": "native",
+        "seconds": 0.343,
+        "width": 1024,
+        "height": 1024,
+        "peak_vram_mb": 831.1,
+        "normalization": "ImageNet RGB; pre/post stacked; localization>0.5; argmax damage"
+      }
+    },
+    {
+      "id": "hold-0315",
+      "image_name": "hold/images/socal-fire_00001187",
+      "event": "socal-fire",
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "localization": [
+        0,
+        0,
+        0
+      ],
+      "seconds": 0.33,
+      "metrics": {
+        "overall_f1": 0.0,
+        "localization_f1": 0.0,
+        "damage_f1": 0.0,
+        "class_f1": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pixels": 0,
+        "class_support": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "present_class_mean_f1": null
+      },
+      "inference": {
+        "model_id": "EVER-Z/torchange_example_changeos_swint_on_xview2_best42k",
+        "device": "cuda",
+        "tile": 1024,
+        "stride": 512,
+        "tiles": 1,
+        "pipeline_version": "changeos-native1024-cuda-v1",
+        "strategy": "native",
+        "seconds": 0.33,
+        "width": 1024,
+        "height": 1024,
+        "peak_vram_mb": 831.1,
+        "normalization": "ImageNet RGB; pre/post stacked; localization>0.5; argmax damage"
+      }
+    },
+    {
+      "id": "hold-0341",
+      "image_name": "hold/images/socal-fire_00000481",
+      "event": "socal-fire",
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "localization": [
+        0,
+        0,
+        0
+      ],
+      "seconds": 0.329,
+      "metrics": {
+        "overall_f1": 0.0,
+        "localization_f1": 0.0,
+        "damage_f1": 0.0,
+        "class_f1": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pixels": 0,
+        "class_support": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "present_class_mean_f1": null
+      },
+      "inference": {
+        "model_id": "EVER-Z/torchange_example_changeos_swint_on_xview2_best42k",
+        "device": "cuda",
+        "tile": 1024,
+        "stride": 512,
+        "tiles": 1,
+        "pipeline_version": "changeos-native1024-cuda-v1",
+        "strategy": "native",
+        "seconds": 0.329,
+        "width": 1024,
+        "height": 1024,
+        "peak_vram_mb": 831.1,
+        "normalization": "ImageNet RGB; pre/post stacked; localization>0.5; argmax damage"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+python-multipart>=0.0.20
+numpy<3
+pillow>=11
+rasterio>=1.4
+scipy>=1.14
+requests>=2.32
+pyarrow>=18
+safetensors>=0.5
+torchange @ git+https://github.com/Z-Zheng/pytorch-change-models@190b07a2eb4c389a5dc3f72802c67f428cdfd6b7
+ever-beta>=0.6.1
+httpx>=0.28
+pytest>=8
